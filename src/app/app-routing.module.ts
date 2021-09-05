@@ -5,7 +5,6 @@ const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  // eslint-disable-next-line @typescript-eslint/comma-dangle
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
