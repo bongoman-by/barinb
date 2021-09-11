@@ -14,5 +14,8 @@ module.exports = {
     'jest-preset-angular/build/serializers/html-comment',
   ],
   testRunner: 'jest-jasmine2',
-  moduleNameMapper: { '@app/ui/theme/layout': ['<rootDir>/src/app/ui/theme/layout/index.ts'] },
+  moduleNameMapper: {
+    '@app/ui/theme/layout': ['<rootDir>/src/app/ui/theme/layout/index.ts'],
+    '@app/ui/icons': ['<rootDir>/src/app/ui/icons/index.ts'],
+  },
 };
