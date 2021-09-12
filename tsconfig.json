@@ -27,6 +27,9 @@
       ],
       "@app/ui/icons": [
         "src/app/ui/icons/index.ts"
+      ],
+      "@app/core/common": [
+        "src/app/core/common/index.ts"
       ]
     },
     "emitDecoratorMetadata": true
