@@ -43,6 +43,9 @@
       "@app/rooms/state": [
         "src/app/rooms/state/index.ts"
       ],
+      "@app/rooms/service": [
+        "src/app/rooms/service/index.ts"
+      ],
       "@app/buildings/common": [
         "src/app/buildings/common/index.ts"
       ],
@@ -60,6 +63,9 @@
       ],
       "@app/core/environments": [
         "src/app/core/environments/index.ts"
+      ],
+      "@app/booking/page": [
+        "src/app/booking/page/index.ts"
       ]
     },
     "emitDecoratorMetadata": true
