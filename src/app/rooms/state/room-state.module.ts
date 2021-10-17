@@ -9,7 +9,13 @@ import { RoomFacade } from './room.facade';
 import { reducer, ROOM_FEATURE_KEY } from './room.reducer';
 
 @NgModule({
-  imports: [RoomStorageModule, StoreModule.forFeature(ROOM_FEATURE_KEY, reducer), EffectsModule.forFeature([RoomEffects])],
+  imports: [
+    RoomStorageModule,
+    StoreModule.forRoot({}),
+    StoreModule.forFeature(ROOM_FEATURE_KEY, reducer),
+    EffectsModule.forRoot(),
+    EffectsModule.forFeature([RoomEffects]),
+  ],
   providers: [RoomFacade],
 })
 export class RoomStateModule {}
