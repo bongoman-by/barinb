@@ -64,6 +64,15 @@
       "@app/core/environments": [
         "src/app/core/environments/index.ts"
       ],
+      "@app/core/config": [
+        "src/app/core/config/index.ts"
+      ],
+      "@app/maps/services": [
+        "src/app/maps/services/index.ts"
+      ],
+      "@app/maps/common": [
+        "src/app/maps/common/index.ts"
+      ],
       "@app/booking/page": [
         "src/app/booking/page/index.ts"
       ]
