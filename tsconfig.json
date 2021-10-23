@@ -52,6 +52,9 @@
       "@app/buildings/storage": [
         "src/app/buildings/storage/index.ts"
       ],
+      "@app/buildings/state": [
+        "src/app/buildings/state/index.ts"
+      ],
       "@app/persons/common": [
         "src/app/persons/common/index.ts"
       ],
@@ -75,6 +78,12 @@
       ],
       "@app/booking/page": [
         "src/app/booking/page/index.ts"
+      ],
+      "@app/booking/common": [
+        "src/app/booking/common/index.ts"
+      ],
+      "@app/booking/state": [
+        "src/app/booking/state/index.ts"
       ]
     },
     "emitDecoratorMetadata": true
