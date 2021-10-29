@@ -40,6 +40,9 @@
       "@app/ui/shared": [
         "src/app/ui/shared/index.ts"
       ],
+      "@app/ui/carousel": [
+        "src/app/ui/carousel/index.ts"
+      ],
       "@app/core/common": [
         "src/app/core/common/index.ts"
       ],
@@ -64,11 +67,20 @@
       "@app/buildings/storage": [
         "src/app/buildings/storage/index.ts"
       ],
+      "@app/buildings/service": [
+        "src/app/buildings/service/index.ts"
+      ],
       "@app/buildings/state": [
         "src/app/buildings/state/index.ts"
       ],
       "@app/persons/common": [
         "src/app/persons/common/index.ts"
+      ],
+      "@app/persons/service": [
+        "src/app/persons/service/index.ts"
+      ],
+      "@app/persons/state": [
+        "src/app/persons/state/index.ts"
       ],
       "@app/persons/storage": [
         "src/app/persons/storage/index.ts"
@@ -79,11 +91,23 @@
       "@app/core/environments": [
         "src/app/core/environments/index.ts"
       ],
+      "@app/core/navigation/common": [
+        "src/app/core/navigation/common/index.ts"
+      ],
+      "@app/core/navigation/service": [
+        "src/app/core/navigation/service/index.ts"
+      ],
+      "@app/core/navigation/shared": [
+        "src/app/core/navigation/shared/index.ts"
+      ],
       "@app/core/config": [
         "src/app/core/config/index.ts"
       ],
       "@app/maps/services": [
         "src/app/maps/services/index.ts"
+      ],
+      "@app/maps/shared": [
+        "src/app/maps/shared/index.ts"
       ],
       "@app/maps/common": [
         "src/app/maps/common/index.ts"
@@ -93,6 +117,12 @@
       ],
       "@app/booking/common": [
         "src/app/booking/common/index.ts"
+      ],
+      "@app/booking/service": [
+        "src/app/booking/service/index.ts"
+      ],
+      "@app/booking/shared": [
+        "src/app/booking/shared/index.ts"
       ],
       "@app/booking/state": [
         "src/app/booking/state/index.ts"
