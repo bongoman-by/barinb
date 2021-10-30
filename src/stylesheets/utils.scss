@@ -1,0 +1,9 @@
+@import 'variables';
+@import 'mixins/brackpoints';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+}
