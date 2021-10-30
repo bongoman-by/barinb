@@ -58,6 +58,9 @@
       "@app/core/numerals/utils": [
         "src/app/core/numerals/utils/index.ts"
       ],
+      "@app/core/forms/shared": [
+        "src/app/core/forms/shared/index.ts"
+      ],
       "@app/rooms/common": [
         "src/app/rooms/common/index.ts"
       ],
