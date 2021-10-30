@@ -49,6 +49,15 @@
       "@app/core/storage": [
         "src/app/core/storage/index.ts"
       ],
+      "@app/core/numerals/common": [
+        "src/app/core/numerals/common/index.ts"
+      ],
+      "@app/core/numerals/shared": [
+        "src/app/core/numerals/shared/index.ts"
+      ],
+      "@app/core/numerals/utils": [
+        "src/app/core/numerals/utils/index.ts"
+      ],
       "@app/rooms/common": [
         "src/app/rooms/common/index.ts"
       ],
@@ -58,8 +67,14 @@
       "@app/rooms/state": [
         "src/app/rooms/state/index.ts"
       ],
+      "@app/rooms/manager": [
+        "src/app/rooms/manager/index.ts"
+      ],
       "@app/rooms/service": [
         "src/app/rooms/service/index.ts"
+      ],
+      "@app/rooms/shared": [
+        "src/app/rooms/shared/index.ts"
       ],
       "@app/buildings/common": [
         "src/app/buildings/common/index.ts"
