@@ -11,7 +11,6 @@ import { reducer, ROOM_FEATURE_KEY } from './room.reducer';
 @NgModule({
   imports: [
     RoomStorageModule,
-    StoreModule.forRoot({}),
     StoreModule.forFeature(ROOM_FEATURE_KEY, reducer),
     EffectsModule.forRoot(),
     EffectsModule.forFeature([RoomEffects]),

@@ -12,5 +12,8 @@
       <div class="room-view-separator"></div>
       <app-room-description automation-id="room-description" [room]="room"></app-room-description>
     </app-column>
+    <app-column [modes]="{ lg: 4 }">
+      <app-room-booking-card automation-id="room-card" [room]="room"></app-room-booking-card>
+    </app-column>
   </app-row>
 </app-container>

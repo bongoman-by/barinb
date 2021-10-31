@@ -46,6 +46,9 @@
       "@app/core/common": [
         "src/app/core/common/index.ts"
       ],
+      "@app/core/environments": [
+        "src/app/core/environments/index.ts"
+      ],
       "@app/core/storage": [
         "src/app/core/storage/index.ts"
       ],
@@ -57,6 +60,9 @@
       ],
       "@app/core/numerals/utils": [
         "src/app/core/numerals/utils/index.ts"
+      ],
+      "@app/core/store/root": [
+        "src/app/core/store/root/index.ts"
       ],
       "@app/core/forms/shared": [
         "src/app/core/forms/shared/index.ts"
@@ -78,6 +84,9 @@
       ],
       "@app/rooms/shared": [
         "src/app/rooms/shared/index.ts"
+      ],
+      "@app/rooms/page": [
+        "src/app/rooms/page/index.ts"
       ],
       "@app/buildings/common": [
         "src/app/buildings/common/index.ts"
