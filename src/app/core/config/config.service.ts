@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Config } from './config.interface';
 
 export const CONFIG_DEFAULT: Config = {
-  googleMapKey: '',
+  googleMapKey: 'AIzaSyCR6nb6hOLVWl00OtCHaQcQMgvtVqhs91E',
 };
 
 @Injectable({
@@ -14,7 +14,7 @@ export class ConfigService {
 
   constructor() {
     this.config = {
-      googleMapKey: process.env.GOOGLE_MAPS_KEY ?? CONFIG_DEFAULT.googleMapKey,
+      googleMapKey: CONFIG_DEFAULT.googleMapKey,
     };
   }
 
