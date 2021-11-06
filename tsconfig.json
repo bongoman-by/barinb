@@ -25,6 +25,18 @@
       "@app/admin/menu": [
         "src/app/admin/menu/index.ts"
       ],
+      "@app/admin/layout": [
+        "src/app/admin/layout/index.ts"
+      ],
+      "@app/admin/links/shared": [
+        "src/app/admin/links/shared/index.ts"
+      ],
+      "@app/admin/view/shared": [
+        "src/app/admin/view/shared/index.ts"
+      ],
+      "@app/admin/page": [
+        "src/app/admin/page/index.ts"
+      ],
       "@app/ui/theme/layout": [
         "src/app/ui/theme/layout/index.ts"
       ],
@@ -55,6 +67,12 @@
       "@app/core/storage": [
         "src/app/core/storage/index.ts"
       ],
+      "@app/core/platform": [
+        "src/app/core/platform/index.ts"
+      ],
+      "@app/core/forms/errors": [
+        "src/app/core/forms/errors/index.ts"
+      ],
       "@app/core/numerals/common": [
         "src/app/core/numerals/common/index.ts"
       ],
@@ -69,6 +87,9 @@
       ],
       "@app/core/forms/shared": [
         "src/app/core/forms/shared/index.ts"
+      ],
+      "@app/core/forms/utils": [
+        "src/app/core/forms/utils/index.ts"
       ],
       "@app/rooms/common": [
         "src/app/rooms/common/index.ts"
@@ -90,6 +111,9 @@
       ],
       "@app/rooms/page": [
         "src/app/rooms/page/index.ts"
+      ],
+      "@app/rooms/admin-page": [
+        "src/app/rooms/admin-page/index.ts"
       ],
       "@app/buildings/common": [
         "src/app/buildings/common/index.ts"
@@ -114,6 +138,9 @@
       ],
       "@app/persons/storage": [
         "src/app/persons/storage/index.ts"
+      ],
+      "@app/persons/shared": [
+        "src/app/persons/shared/index.ts"
       ],
       "@app/core/store/utils": [
         "src/app/core/store/utils/index.ts"

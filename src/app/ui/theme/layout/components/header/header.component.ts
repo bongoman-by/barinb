@@ -1,4 +1,9 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+
+import { NavigationPath } from '@app/core/navigation/common';
+
+import { HelpDialogComponent } from './components/help-dialog/help-dialog.component';
 
 @Component({
   selector: 'app-header',
@@ -6,4 +11,13 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
   styleUrls: ['./header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  NavigationPath = NavigationPath;
+
+  constructor(private readonly matDialog: MatDialog) {}
+
+  onOpenDialog(): void {
+    this.matDialog.open(HelpDialogComponent);
+  }
+}

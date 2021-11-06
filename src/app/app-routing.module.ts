@@ -17,6 +17,10 @@ const routes: Routes = [
         path: NavigationPath.Rooms,
         loadChildren: (): Promise<any> => import('@app/rooms/page').then((modules) => modules.RoomPageModule),
       },
+      {
+        path: NavigationPath.Admin,
+        loadChildren: (): Promise<any> => import('@app/admin/page').then((modules) => modules.AdminPageModule),
+      },
     ],
   },
 ];
