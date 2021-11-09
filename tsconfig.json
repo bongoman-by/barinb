@@ -160,6 +160,9 @@
       "@app/core/config": [
         "src/app/core/config/index.ts"
       ],
+      "@app/core/testing": [
+        "src/app/core/testing/index.ts"
+      ],
       "@app/maps/services": [
         "src/app/maps/services/index.ts"
       ],

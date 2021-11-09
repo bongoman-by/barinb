@@ -29,19 +29,14 @@ export class NavigationService {
         routeWithParams.push(segment);
       }
     }
-    console.log('getRoute: ', routeWithParams);
     return routeWithParams;
   }
 
   navigate(navigationPath: (string | number)[], extras?: NavigationExtras): Promise<boolean> {
-    console.log('navigate: navigationPath: ', navigationPath, 'extras: ', extras);
-
     return this.router.navigate(navigationPath, extras);
   }
 
   navigateByUrl(navigationPath: NavigationPath, params?: Record<string, any>, extras?: NavigationExtras): Promise<boolean> {
-    console.log('navigateByUrl: navigationPath: ', this.getRoute(navigationPath, params), 'extras: ', extras);
-
     return this.navigate(this.getRoute(navigationPath, params), extras);
   }
 }
