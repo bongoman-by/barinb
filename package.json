@@ -7,6 +7,11 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "singletest_1": "ng test -- -u room-booking-price.service.spec.ts",
+    "singletest_2": "ng test -- -u local.storage.spec.ts",
+    "singletest_3": "ng test -- -u room.service.spec.ts",
+    "singletest_4": "ng test -- -u room.manager.spec.ts",
+    "singletest_5": "ng test -- -u booking.service.spec.ts",
     "lint": "ng lint"
   },
   "private": true,
@@ -27,6 +32,7 @@
     "@ngrx/router-store": "^12.4.0",
     "@ngrx/store": "^12.4.0",
     "@ngrx/store-devtools": "^12.4.0",
+    "jasmine-marbles": "^0.8.4",
     "rxjs": "~6.6.0",
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4"
