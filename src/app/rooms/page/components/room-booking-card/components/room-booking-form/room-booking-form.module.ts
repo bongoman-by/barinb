@@ -11,6 +11,7 @@ import { RoomBookingDialogModule } from '../room-booking-dialog/room-booking-dia
 import { RoomBookingDateModule } from './components/room-booking-date/room-booking-date.module';
 import { RoomBookingGuestModule } from './components/room-booking-guest/room-booking-guest.module';
 import { RoomBookingFormComponent } from './room-booking-form.component';
+import { WrapperComponent } from './room-booking-form.component.spec';
 
 @NgModule({
   imports: [
@@ -24,7 +25,7 @@ import { RoomBookingFormComponent } from './room-booking-form.component';
     RoomBookingDateModule,
     RoomBookingGuestModule,
   ],
-  declarations: [RoomBookingFormComponent],
-  exports: [RoomBookingFormComponent],
+  declarations: [RoomBookingFormComponent, WrapperComponent],
+  exports: [RoomBookingFormComponent, WrapperComponent],
 })
 export class RoomBookingFormModule {}
