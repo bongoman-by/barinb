@@ -12,6 +12,9 @@
     "singletest_3": "ng test -- -u room.service.spec.ts",
     "singletest_4": "ng test -- -u room.manager.spec.ts",
     "singletest_5": "ng test -- -u booking.service.spec.ts",
+    "singletest_6": "ng test -- -u room-details.component.spec.ts",
+    "singletest_7": "ng test -- -u room-booking-card.component.spec.ts",
+    "singletest_8": "ng test -- -u room-booking-form.component.spec.ts",
     "lint": "ng lint"
   },
   "private": true,
